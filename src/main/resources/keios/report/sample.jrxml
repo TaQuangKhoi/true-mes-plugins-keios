@@ -6,7 +6,7 @@
 	<parameter name="EntityIds" class="java.util.List"/>
 	<parameter name="ReportTitle" class="java.lang.String"/>
 	<queryString language="hql">
-		<![CDATA[from com.qcadoo.model.beans.true-mes-plugins-keios.True-mes-plugins-keiosTrue-mes-plugins-keios sample where id in ($P{EntityIds})]]>
+		<![CDATA[from com.qcadoo.model.beans.keios.KeiosKeios sample where id in ($P{EntityIds})]]>
 	</queryString>
 	<field name="id" class="java.lang.Long"/>
 	<field name="number" class="java.lang.String"/>

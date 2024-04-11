@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin plugin="true-mes-plugins-keios" group="framework" version="0.0.1-SNAPSHOT"
+<plugin plugin="keios" group="framework" version="0.0.1-SNAPSHOT"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.qcadoo.org/plugin"
 	xmlns:model="http://schema.qcadoo.org/modules/model" xmlns:view="http://schema.qcadoo.org/modules/view"
 	xmlns:menu="http://schema.qcadoo.org/modules/menu" xmlns:localization="http://schema.qcadoo.org/modules/localization"
@@ -31,12 +31,12 @@
 	<modules>
 		<localization:translation path="locales" />
 		
-		<model:model model="true-mes-plugins-keios" resource="model/keios.xml" />
+		<model:model model="keios" resource="model/keios.xml" />
 		
-		<menu:menu-category name="true-mes-plugins-keios" />
+		<menu:menu-category name="keios" />
 
-		<menu:menu-item name="true-mes-plugins-keios" category="true-mes-plugins-keios"
-			view="true-mes-plugins-keiosList" />
+		<menu:menu-item name="keios" category="keios"
+			view="keiosList" />
 
 		<view:view resource="view/keiosList.xml" />
 		<view:view resource="view/keiosDetails.xml" />

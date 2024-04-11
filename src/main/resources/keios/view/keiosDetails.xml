@@ -1,11 +1,11 @@
-<view name="true-mes-plugins-keiosDetails" modelName="keios" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<view name="keiosDetails" modelName="keios" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="http://schema.qcadoo.org/view" xsi:schemaLocation="http://schema.qcadoo.org/view http://schema.qcadoo.org/view.xsd">
 	<component type="window" name="window">
 		<ribbon>
 			<template name="standardFormTemplate" />
 		</ribbon>
 		<windowTab name="mainTab">
-			<component type="form" name="true-mes-plugins-keiosDetails" reference="form">
+			<component type="form" name="keiosDetails" reference="form">
 				<component type="gridLayout" name="gridLayout" columns="1" rows="2">
 					<layoutElement column="1" row="1">
 						<component type="input" name="number" field="number" reference="number">
