@@ -1,4 +1,4 @@
-<view name="true-mes-plugins-keiosDetails" modelName="true-mes-plugins-keios" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<view name="true-mes-plugins-keiosDetails" modelName="keios" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="http://schema.qcadoo.org/view" xsi:schemaLocation="http://schema.qcadoo.org/view http://schema.qcadoo.org/view.xsd">
 	<component type="window" name="window">
 		<ribbon>
